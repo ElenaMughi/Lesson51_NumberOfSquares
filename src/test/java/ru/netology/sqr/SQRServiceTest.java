@@ -15,7 +15,7 @@ class SQRServiceTest {
             "'from 99 to 100', 99, 100, 1",
             "'from 100 to 101', 100, 101, 1",
             "'from 9800 to 9802', 9800, 9802, 1",
-            "'from 0 to 0', 0, 0, 0"})
+            "'from 20 to 10', 20, 10, 0"})
     void calculateNumberOfSquare (String testName, int start, int end, int expected) {
         SQRService service = new SQRService();
         int count = service.numberOfSquares (start, end);

@@ -6,11 +6,9 @@ public class SQRService {
 
     public int numberOfSquares(int start, int end) {
         int count = 0;
-        for (
-                int i = 10;
-                i < 100; i++) {
+        for (int i = 10; i < 100; i++) {
             int j = i * i;
-            if ((j >= start) & (j <= end)) {
+            if ((j >= start) && (j <= end)) {
                 count = count + 1;
             }
         }
